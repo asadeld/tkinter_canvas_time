@@ -9,7 +9,7 @@ def update_time():
     root.after(1000, update_time)
     colors = ['red', 'green', 'blue', 'yellow', 'orange']
     timer_label.config(fg=colors[random.randint(0, 4)])
-
+print('test')
 
 
 root = tk.Tk()
